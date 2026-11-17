@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prism Hunter</title>
+  <style>
+    :root { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #070910; font-family: Arial, Helvetica, sans-serif; overflow: hidden; }
+    canvas { width: min(100vw, 133.333vh); height: auto; max-height: 100vh; display: block; background: #111; cursor: crosshair; touch-action: none; box-shadow: 0 0 75px #00dfff19; }
+  </style>
+</head>
+<body>
+  <canvas id="game" width="800" height="600" aria-label="Prism Hunter arcade game"></canvas>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
